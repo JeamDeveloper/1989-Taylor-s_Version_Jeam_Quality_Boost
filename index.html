@@ -48,9 +48,16 @@
             background-color: #AFC4D5;
         }
 
-        #audio-player {
+        .audio-box {
             background-color: #AFC4D5; /* Color de fondo para el reproductor de audio */
             padding: 16px;
+            border-radius: 20px; /* Borde redondeado */
+            text-align: center;
+            margin-bottom: 16px; /* Espacio entre cajas de audio */
+        }
+
+        .audio-title {
+            font-size: 24px; /* Tamaño de fuente del título */
         }
     </style>
 </head>
@@ -66,12 +73,19 @@
     <div id="ln_2">
         <!-- Contenido de la LinearLayout 2 -->
     </div>
-    <div id="audio-player">
+    <div class="audio-box">
+        <h2 class="audio-title">01. Welcome to New York</h2>
         <audio controls>
             <source src="https://archive.org/download/1989-taylors-version-hd/01.%20Welcome%20To%20New%20York%20%28Taylor%27s%20Version%29.mp3" type="audio/mpeg">
             Tu navegador no soporta la reproducción de audio.
         </audio>
-        01. Welcome to New York
+    </div>
+    <div class="audio-box">
+        <h2 class="audio-title">02. Blank Space</h2>
+        <audio controls>
+            <source src="https://archive.org/download/1989-taylors-version-hd/02.%20Blank%20Space%20%28Taylor%27s%20Version%29.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
     </div>
 </body>
 </html>
