@@ -47,15 +47,31 @@
         #ln_2 {
             background-color: #AFC4D5;
         }
+
+        #audio-player {
+            background-color: #AFC4D5; /* Color de fondo para el reproductor de audio */
+            padding: 16px;
+        }
     </style>
 </head>
 <body>
-<img id="im_1" src="https://raw.githubusercontent.com/JeamDeveloper/1989-Taylor-s_Version_Jeam_Quality_Boost/54d2834bac28a6a9edf6e2574f8a8fa657210bd1/a662b22aea268dcf798a26d4ebdf6c26.jpg" alt="Imagen">
+    <div class="title1">
+        1989
+    </div>
+    <img id="im_1" src="https://raw.githubusercontent.com/JeamDeveloper/1989-Taylor-s_Version_Jeam_Quality_Boost/54d2834bac28a6a9edf6e2574f8a8fa657210bd1/a662b22aea268dcf798a26d4ebdf6c26.jpg" alt="Imagen">
     <div id="tv_1">
-        1989 (Taylor's Version)<br>(HD Masters)
+        1989 (Taylor's Version) (HD Masters)<br>
+        Taylor Swift
     </div>
     <div id="ln_2">
         <!-- Contenido de la LinearLayout 2 -->
+    </div>
+    <div id="audio-player">
+        <audio controls>
+            <source src="https://archive.org/download/1989-taylors-version-hd/01.%20Welcome%20To%20New%20York%20%28Taylor%27s%20Version%29.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+        01. Welcome to New York
     </div>
 </body>
 </html>
