@@ -9,6 +9,11 @@
             src: url('https://raw.githubusercontent.com/JeamDeveloper/1989-Taylor-s_Version_Jeam_Quality_Boost/b2dc5c0870f658e66eca30defb2d8ba59c3b10c9/PermanentMarker.ttf');
         }
 
+        @font-face {
+            font-family: 'ProductSans';
+            src: url('https://raw.githubusercontent.com/JeamDeveloper/1989-Taylor-s_Version_Jeam_Quality_Boost/dd7242f3d08921c6191245178e55dfe9e4786492/Product%20Sans%20Regular.ttf');
+        }
+
         body {
             background-color: #D6D2C6;
             width: 100%;
@@ -50,7 +55,7 @@
 
         .audio-box {
             background-color: #AFC4D5; /* Color de fondo para el reproductor de audio */
-            padding: 16px;
+            padding: 16px 0; /* 16px arriba y abajo, 0px a la izquierda y derecha */
             border-radius: 20px; /* Borde redondeado */
             text-align: center;
             margin-bottom: 16px; /* Espacio entre cajas de audio */
@@ -64,6 +69,11 @@
             font-size: 28px; /* Tamaño de fuente ligeramente más pequeño */
             font-weight: normal; /* Estilo de fuente normal de Android */
             padding: 16px; /* Espaciado */
+        }
+
+        .small-text {
+            font-family: 'ProductSans', sans-serif; /* Fuente Product Sans */
+            font-size: 9px; /* Tamaño de fuente pequeño */
         }
     </style>
 </head>
@@ -94,8 +104,8 @@
         </audio>
     </div>
     <div class="disclaimer">
-        <p>Los tracks presentados en esta página han sido obtenidos de una fuente oficial de Taylor Swift y se reproducen en calidad Full HD con fines puramente demostrativos. No tenemos intención alguna de infringir los derechos de propiedad de la música ni de apropiarnos de ella de ninguna manera.</p>
-        <p>Respetamos y valoramos profundamente la propiedad intelectual y los derechos de los artistas. Si disfrutas de la música de Taylor Swift, te alentamos a apoyarla adquiriendo su música a través de canales legítimos y autorizados.</p>
+        <p class="small-text">Los tracks presentados en esta página han sido obtenidos de una fuente oficial de Taylor Swift y se reproducen en calidad Full HD con fines puramente demostrativos. No tenemos intención alguna de infringir los derechos de propiedad de la música ni de apropiarnos de ella de ninguna manera.</p>
+        <p class="small-text">Respetamos y valoramos profundamente la propiedad intelectual y los derechos de los artistas. Si disfrutas de la música de Taylor Swift, te alentamos a apoyarla adquiriendo su música a través de canales legítimos y autorizados.</p>
     </div>
 </body>
 </html>
